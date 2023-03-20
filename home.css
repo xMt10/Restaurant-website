@@ -1,0 +1,65 @@
+/* Hero Section Styles */
+.hero-wrapper{
+    display: flex;
+    flex-direction: column-reverse ;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.hero-left-wrapper{
+    max-width: 360px;
+    margin-bottom: 3rem;
+}
+.hero-imgWrapper{
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+}
+.hero-heading{
+    font-family: Poppins;
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--black-1) ;
+}
+.hero-info{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    color: var(--black-2);
+}
+.button-wrapper{
+    text-align: center;
+}
+@media only screen and (min-width:768px){
+    .hero-wrapper{
+        flex-direction: row;
+        gap: 0;
+    }
+    .hero-left{
+        flex: 3;
+    }
+    .hero-right{
+        flex: 4;
+    }
+    .hero-heading{
+        font-size: 3.4rem;
+        margin-bottom: 1.9rem;
+        text-align: center;
+    }
+    .hero-info{
+        margin-bottom: 1.9rem;
+        font-size: 1.65rem;
+    }
+    .button-wrapper{
+        text-align: left;
+    }
+    .hero-imgWrapper{
+        max-width: none;
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+}
